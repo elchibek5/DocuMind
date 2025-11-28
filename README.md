@@ -99,7 +99,7 @@ graph LR
 
 <div align="center">
   <p>
-    Created by <a href="https://linkedin.com/in/elchibekdastanov">Elchibek Dastanov</a>
+    Created by <a href="https://www.linkedin.com/in/elchibek-dastanov-55bb84308/">Elchibek Dastanov</a>
   </p>
   <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" alt="Status" />
 </div>
