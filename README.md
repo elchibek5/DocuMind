@@ -97,11 +97,9 @@ graph LR
 
 -----
 
-\<div align="center"\>
-\<p\>
-Created by \<a href="https://linkedin.com/in/elchibekdastanov"\>Elchibek Dastanov\</a\>
-\</p\>
-\<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Active-success%3Fstyle%3Dflat-square" alt="Status" /\>
-\</div\>
-
-```
+<div align="center">
+  <p>
+    Created by <a href="https://linkedin.com/in/elchibekdastanov">Elchibek Dastanov</a>
+  </p>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" alt="Status" />
+</div>
