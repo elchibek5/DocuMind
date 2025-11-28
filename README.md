@@ -1,13 +1,26 @@
 # 🧠 DocuMind: RAG-Powered Research Assistant
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green)
-![LangChain](https://img.shields.io/badge/LangChain-RAG-orange)
+<div align="center">
+  <h1>🧠 DocuMind</h1>
+  <h3>
+    <span style="color: #FF4B4B;">Stop scrolling through 100-page PDFs.</span>
+  </h3>
+  <p>
+    DocuMind uses <strong>Retrieval-Augmented Generation (RAG)</strong> to let you chat with your documents, extracting exact answers with page references in seconds.
+  </p>
 
-##Stop scrolling through 100-page PDFs. DocuMind uses Retrieval-Augmented Generation (RAG) to let you chat with your documents, extracting exact answers with page references in seconds.
+  ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+  ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+  ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green)
+  ![LangChain](https://img.shields.io/badge/LangChain-RAG-orange)
+</div>
+
+<br>
+
+![Demo Screenshot](demo.png)DocuMind uses Retrieval-Augmented Generation (RAG) to let you chat with your documents, extracting exact answers with page references in seconds.
 
 ![Demo Screenshot](demo.png)
+*(Note: Upload a screenshot of your app here to make this image appear)*
 
 ---
 
