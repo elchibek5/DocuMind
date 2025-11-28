@@ -1,5 +1,3 @@
-# 🧠 DocuMind: RAG-Powered Research Assistant
-
 <div align="center">
   <h1>🧠 DocuMind</h1>
   <h3>
@@ -13,20 +11,19 @@
   ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
   ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green)
   ![LangChain](https://img.shields.io/badge/LangChain-RAG-orange)
+  
+  <br>
+  <br>
+
+  ![Demo Screenshot](demo.png)
+  
 </div>
-
-<br>
-
-![Demo Screenshot](demo.png)DocuMind uses Retrieval-Augmented Generation (RAG) to let you chat with your documents, extracting exact answers with page references in seconds.
-
-![Demo Screenshot](demo.png)
-*(Note: Upload a screenshot of your app here to make this image appear)*
 
 ---
 
 ## 🏗️ System Architecture
 
-DocuMind is not just a wrapper around ChatGPT. It builds a **Vector Search Engine** to ground the AI's responses in your specific data.
+DocuMind is not just a wrapper around ChatGPT. It builds a **Vector Search Engine** to ground the AI's responses in your specific data to prevent hallucinations.
 
 ```mermaid
 graph LR
@@ -38,10 +35,10 @@ graph LR
     F -->|Answer| G[Streamlit UI]
 ````
 
-1.  **Ingestion:** The app parses raw PDF text and splits it into manageable "chunks" (1000 chars) with overlap to preserve context.
+1.  **Ingestion:** The app parses raw PDF text and splits it into manageable "chunks" (1000 chars) to preserve context.
 2.  **Embedding:** Text chunks are converted into 1536-dimensional vectors using `text-embedding-3-small`.
 3.  **Storage:** Vectors are stored locally using **FAISS** (Facebook AI Similarity Search) for O(1) retrieval speed.
-4.  **Retrieval:** When you ask a question, the system finds the most mathematically similar chunks and feeds them to the LLM.
+4.  **Retrieval:** When a user asks a question, the system finds the most mathematically similar chunks and feeds them to the LLM.
 
 -----
 
@@ -54,6 +51,17 @@ graph LR
 | **Vector DB** | FAISS (CPU) | Local, efficient similarity search |
 | **LLM** | OpenAI GPT-3.5 | Inference engine for reasoning |
 | **Embeddings** | OpenAI Ada | Semantic text representation |
+
+-----
+
+## 💡 Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| **Multi-Document** | Upload and process multiple PDFs simultaneously. |
+| **Context-Aware** | Remembers previous questions in the chat session (Conversation Memory). |
+| **Source Truth** | Strictly answers based on the provided context to reduce hallucination. |
+| **Secure Design** | API keys are managed via environment variables and never exposed. |
 
 -----
 
@@ -89,12 +97,11 @@ graph LR
 
 -----
 
-## 💡 Key Features
+\<div align="center"\>
+\<p\>
+Created by \<a href="https://linkedin.com/in/elchibekdastanov"\>Elchibek Dastanov\</a\>
+\</p\>
+\<img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Active-success%3Fstyle%3Dflat-square" alt="Status" /\>
+\</div\>
 
-  * **Multi-Document Support:** Upload and process multiple PDFs at once.
-  * **Context-Aware:** Remembers previous questions in the chat session (Conversation Memory).
-  * **Source Truth:** Reduces hallucination by strictly answering based on the provided context.
-  * **Secure:** API keys are managed via environment variables and never exposed.
-
-
-**Author:** [Elchibek Dastanov](https://linkedin.com/in/elchibekdastanov)
+```
