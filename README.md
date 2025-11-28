@@ -84,12 +84,5 @@ graph LR
   * **Source Truth:** Reduces hallucination by strictly answering based on the provided context.
   * **Secure:** API keys are managed via environment variables and never exposed.
 
-## 🔜 Future Improvements
-
-  * [ ] Dockerize the application for easy deployment.
-  * [ ] Add support for .docx and .txt files.
-  * [ ] Implement a "Clear Chat" button.
-
------
 
 **Author:** [Elchibek Dastanov](https://linkedin.com/in/elchibekdastanov)
