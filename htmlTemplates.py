@@ -14,7 +14,7 @@ bot_template = '''
     <div class="avatar">
         <img src="https://i.imgur.com/7k12epD.png" alt="AI">
     </div>
-    <div class="message">{{MSG}}</div>
+    <div class="message">{{MSG}}</div> 
 </div>
 '''
 
