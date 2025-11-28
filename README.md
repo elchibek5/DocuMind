@@ -5,7 +5,7 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-green)
 ![LangChain](https://img.shields.io/badge/LangChain-RAG-orange)
 
-##Stop scrolling through 100-page PDFs.## DocuMind uses Retrieval-Augmented Generation (RAG) to let you chat with your documents, extracting exact answers with page references in seconds.
+##Stop scrolling through 100-page PDFs. DocuMind uses Retrieval-Augmented Generation (RAG) to let you chat with your documents, extracting exact answers with page references in seconds.
 
 ![Demo Screenshot](demo.png)
 
